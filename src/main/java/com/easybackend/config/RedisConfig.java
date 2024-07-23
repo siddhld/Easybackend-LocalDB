@@ -16,6 +16,7 @@ import java.time.Duration;
 
 @Configuration
 public class RedisConfig {
+
     @Bean
     public LettuceConnectionFactory redisConnectionFactory() {
         String redisHost = System.getenv("SPRING_REDIS_HOST") != null ? System.getenv("SPRING_REDIS_HOST") : "localhost";
@@ -33,6 +34,7 @@ public class RedisConfig {
         }
         return factory;
     }
+
 
     @Bean
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory connectionFactory) {

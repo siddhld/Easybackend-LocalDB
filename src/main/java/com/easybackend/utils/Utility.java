@@ -11,7 +11,7 @@ import java.util.Optional;
 
 public class Utility {
 
-    private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     private static final int STRING_LENGTH = 4;
     private static SecureRandom random = new SecureRandom();
 
