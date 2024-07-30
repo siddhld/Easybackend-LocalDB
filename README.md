@@ -13,9 +13,6 @@
 - To build and start a Docker container with the services defined in a Docker Compose file. 
 ### docker compose up --build
 
-
-
-
 # Project Analysis and Resume Content Generator
 
 ## Input
@@ -23,34 +20,44 @@ Provide the entire codebase of your project application.
 
 ## Task 1: Code Analysis and Interview Question Generation
 
-Analyze the provided codebase thoroughly, understanding its structure, functionality, and technologies used. Based on this analysis:
+You are an expert software developer and technical writer with extensive experience in creating project documentation and resume content. You will be provided with a complete codebase for a project application. Your task is to analyze this code thoroughly and generate the following outputs:
 
-1. Generate 15-25 interview questions directly related to the project.
-2. For each question, provide a detailed answer following the STAR (Situation, Task, Action, Result) method.
-3. Include both technical explanations and layman's terms in your answers.
-4. Provide a specific example for each question to illustrate the concept or solution.
+1. Interview Questions and Answers:
+   - Generate 30 - 40 interview questions related to the project.
+   - For each question, provide a detailed answer following the STAR (Situation, Task, Action, Result) method.
+   - Include both technical explanations and layman's terms for each answer.
+   - Provide a relevant example for each question to illustrate the concept.
 
-## Task 2: Project Overview and Resume Content Generation
+2. Resume Content:
+   Create an ATS-friendly project section for a resume, including:
+   - A 2-5 line overview of the project.
+   - 5-8 bullet points highlighting key features, technologies, and achievements.
 
-Create resume-ready content for this project, following these guidelines:
+   Follow these guidelines:
+   - Use clear section headers like "Projects" or "Professional Projects".
+   - Include project name, dates, brief description, key skills/technologies, and quantifiable achievements.
+   - Incorporate relevant keywords from the provided job description.
+   - Use specific details and quantify achievements where possible.
+   - Begin each bullet point with a strong action verb.
+   - Keep descriptions concise and avoid tables or graphics.
 
-1. Mention all the technologies that is used in the project.
-2. Generate a concise project overview (2-5 lines) suitable for a resume.
-3. Create 5-8 bullet points highlighting key features, technologies, and achievements of the project.
+3. Full Project Documentation:
+   Create comprehensive HTML documentation with CSS styling, including:
+   - Introduction and overview
+   - User guides and tutorials
+   - Technical reference materials
+   - API documentation (if applicable)
+   - Release notes and changelogs
+   - FAQs and troubleshooting sections
 
-### Resume Content Guidelines
+   Follow these guidelines:
+   - Identify the target audience (e.g., developers, testers, end-users).
+   - Define the scope of the documentation.
+   - Organize content in a logical hierarchy.
+   - Use clear, concise language and avoid jargon when possible.
+   - Provide examples and screenshots where appropriate.
+   - Maintain consistent formatting and naming conventions.
+   - Structure the documentation using HTML5 semantic elements.
+   - Use CSS for styling and layout.
 
-- Use clear section headers (e.g., "Professional Projects" or "Technical Projects").
-- Structure each project entry with:
-  * Project Name
-  * Date Range (if applicable)
-  * Brief Description (1-2 sentences)
-  * Key Skills/Technologies Used
-  * Achievements/Outcomes (with quantifiable results where possible)
-- Incorporate relevant keywords from typical job descriptions in your field.
-- Use specific, detailed language instead of vague statements.
-- Quantify achievements with numbers and percentages when possible.
-- Highlight how the project aligns with common job requirements.
-- Keep descriptions concise (2-3 bullet points or 1-2 short paragraphs per project).
-- Begin each bullet point or description with a strong action verb.
-- Use plain text format, avoiding tables or graphics.
+Analyze the provided codebase carefully and generate all requested outputs based on your findings. Ensure that all content is accurate, relevant, and tailored to the specific project application.
