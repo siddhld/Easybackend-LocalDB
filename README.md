@@ -89,15 +89,21 @@ You are an expert software developer and technical writer specializing in Java b
 
 3. Resume Content:
    Create an ATS-friendly project section for Siddharth's resume, including:
-   - A 5-10 line overview of the "Builder Integration Via DB (Automation)" project.
+   - 5-10 lines overview of the "Builder Integration Via DB (Automation)" work.
    - 5-10 bullet points highlighting key features, advantages, benefits, and other important aspects.
    - Mention issues with the previous code-level integration method and Emphasize how the new DB Automation method increased the company's efficiency.
 
    Follow these guidelines:
-   - Include dates, brief description, key skills/technologies, and quantifiable achievements.
-   - Incorporate relevant keywords for Java backend development.
+   - Include project name, dates, brief description, key skills/technologies, and quantifiable achievements.
+   - Incorporate relevant keywords for a Java backend developer role.
    - Use specific details and quantify achievements where possible.
    - Begin each bullet point with a strong action verb.
    - Keep descriptions concise and avoid tables or graphics.
+   - Highlight the following advantages of DB Automation:
+     * Reduced integration time from days to minutes
+     * Eliminated repetitive tasks for backend developers
+     * Streamlined the integration process for the Builder Operations team
+     * Improved deployment efficiency
+     * Reduced time to resolve issues
 
 Analyze the provided code carefully and generate all requested outputs based on your findings. Ensure that all content is accurate, relevant, and tailored to Siddharth's specific contributions to the Builder Integration Via DB (Automation) project at RoofandFloor.
