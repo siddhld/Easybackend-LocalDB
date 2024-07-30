@@ -21,7 +21,7 @@ public class RedisConfig {
     public LettuceConnectionFactory redisConnectionFactory() {
         String redisHost = System.getenv("SPRING_REDIS_HOST") != null ? System.getenv("SPRING_REDIS_HOST") : "localhost";
         int redisPort = System.getenv("SPRING_REDIS_PORT") != null ? Integer.parseInt(System.getenv("SPRING_REDIS_PORT")) : 6379;
-        RedisStandaloneConfiguration configuration = new RedisStandaloneConfiguration(redisHost, redisPort);
+        RedisStandaloneConfiguration configuration = new RedisStandaloneConfiguration("localhost", 6379);
 
         LettuceConnectionFactory factory = new LettuceConnectionFactory(configuration);
         factory.afterPropertiesSet();
