@@ -17,6 +17,8 @@
 
 https://we.tl/t-ya4KrWUXcT
 
+https://we.tl/t-iiAEXoMfTn
+
 # Project Analysis and Resume Content Generator
 
 ## Input
