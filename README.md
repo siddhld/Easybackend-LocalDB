@@ -7,7 +7,7 @@
  
 
 - To stop and remove containers, networks, and volumes defined in a Compose file.
-### docker compose down     
+### docker compose UP     
 
 
 - To build and start a Docker container with the services defined in a Docker Compose file. 
